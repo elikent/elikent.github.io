@@ -7,7 +7,7 @@ tags: [Security, Networking]
 
 <div style="display: flex; align-items: center;">
 
-    <img src="/assets/images/router.jpeg" alt="Router" style="width: 200px; margin-right: 20px;">
+    <img src="/assets/images/router.jpg" alt="Router" style="width: 200px; margin-right: 20px;">
 
     <div>
         <h3>I'm not kidding when I say "Humble"</h3>
