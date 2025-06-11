@@ -1,0 +1,39 @@
+title: My Humble Projects
+description: Tracking my learning and labs
+baseurl: ""
+url: "https://elikent.github.io"
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-paginate
+
+# Optional navigation setup
+header_pages:
+  - about.md
+  - tags.md
+
+# Enable tag functionality
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+
+head_scripts:
+  - custom-style.html
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+sass:
+  style: compressed
+
